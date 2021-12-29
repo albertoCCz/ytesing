@@ -7,8 +7,8 @@
     "description": "Clicks on 'Yes', to continue watching the Youtube playlist.",
   
     "icons": {
-      "48": "icons/yes_icon.svg",
-      "96": "icons/yes_icon.svg"
+      "48": "icons/icon-ytesing.svg",
+      "96": "icons/icon-ytesing.svg"
     },
   
     "content_scripts": [
