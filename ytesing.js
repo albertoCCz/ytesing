@@ -1,6 +1,6 @@
 var counter = 0;
 
-function yesing(counter){
+function ytesing(counter){
     var elementWithId       = document.getElementById("confirm-button");
     var elementWithIdExists = !!elementWithId;
 
@@ -11,4 +11,4 @@ function yesing(counter){
     }
 }
 
-setInterval(yesing(counter), 1000);
+setInterval(ytesing, 1000, counter);

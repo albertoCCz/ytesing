@@ -10,7 +10,8 @@
       "16": "icons/icon-ytesing.svg",
       "32": "icons/icon-ytesing.svg",
       "48": "icons/icon-ytesing.svg",
-      "96": "icons/icon-ytesing.svg"
+      "96": "icons/icon-ytesing.svg",
+      "128": "icons/icon-ytesing.svg"
     },
   
     "content_scripts": [
