@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "Yes_continue",
+    "version": "1.01",
+  
+    "description": "Clicks on 'Yes', to continue watching the Youtube playlist.",
+  
+    "icons": {
+      "48": "icons/yes_icon.svg",
+      "96": "icons/yes_icon.svg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["yesing.js"]
+      }
+    ]
+  
+  }
+  
