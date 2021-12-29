@@ -1,12 +1,14 @@
 {
 
     "manifest_version": 2,
-    "name": "Yes_continue",
-    "version": "1.01",
+    "name": "Ytesing",
+    "version": "1.0.1",
   
     "description": "Clicks on 'Yes', to continue watching the Youtube playlist.",
   
     "icons": {
+      "16": "icons/icon-ytesing.svg",
+      "32": "icons/icon-ytesing.svg",
       "48": "icons/icon-ytesing.svg",
       "96": "icons/icon-ytesing.svg"
     },
@@ -14,7 +16,7 @@
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
-        "js": ["yesing.js"]
+        "js": ["ytesing.js"]
       }
     ]
   
